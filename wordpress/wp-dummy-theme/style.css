@@ -1,0 +1,84 @@
+/**
+ * Theme Name:  Dummy
+ * Description: This is dummy theme
+ * Theme URI:   http://wordpress.org/themes
+ * Author:      Vitalii Skorobahatko
+ * Author URI:  http://webdump.xyz
+ * Tags:        black, brown, orange
+ * License:     GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Version:     1.0
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.header {
+    padding: 40px;
+    text-align: center;
+    background: #111;
+}
+
+.header .logo {
+    color: #888;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+}
+
+.main-menu {
+    margin-top: 10px;
+}
+
+.main-menu,
+.main-menu li {
+    display: inline-block;
+    list-style: none;
+}
+
+.main-menu li a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px #444 solid;
+    padding: 3px 7px;
+    display: block;
+    transition: all .5s ease;
+}
+
+.main-menu li:hover a {
+    background: #444;
+}
+
+.content, .sidebar {
+    padding: 20px;
+}
+
+.content {
+    width: 80%;
+    background: #d7dddd;
+}
+
+.content .entry-title a {
+    color: #000;
+    text-decoration: none;
+}
+
+.content .entry-content {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.sidebar {
+    width: 20%;
+}
+
+.footer {
+    padding: 20px;
+    color: #555;
+    background: #a2aaaa;
+}
